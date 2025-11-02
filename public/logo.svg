@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- dark background tile (remove if you want transparent background) -->
+  <!-- center shaft -->
+  <rect x="240" y="176" width="32" height="256" rx="16" fill="#38BDF8"/>
+  <!-- center tip -->
+  <path d="M256 64 296 136H216L256 64Z" fill="#38BDF8"/>
+  <!-- left prong stem -->
+  <path d="M240 224c-64 0-96 28-96 84v20h32v-20c0-36 22-52 64-52h0v-32Z" fill="#38BDF8"/>
+  <!-- right prong stem -->
+  <path d="M272 224v32h0c42 0 64 16 64 52v20h32v-20c0-56-32-84-96-84Z" fill="#38BDF8"/>
+  <!-- left tip -->
+  <path d="M160 140 176 196 128 196 160 140Z" fill="#38BDF8"/>
+  <!-- right tip -->
+  <path d="M352 140 384 196 336 196 352 140Z" fill="#38BDF8"/>
+</svg>

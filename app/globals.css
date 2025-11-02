@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+body { @apply bg-background text-foreground antialiased; }
+
+.container { @apply mx-auto max-w-6xl px-6; }
+.btn { @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-medium transition; }
+.btn-primary { @apply btn bg-white text-black hover:opacity-90; }
+.btn-outline { @apply btn border border-white/20 hover:border-white/40; }
+.card { @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md; }
